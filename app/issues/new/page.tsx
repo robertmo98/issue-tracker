@@ -12,7 +12,6 @@ import { createIssueSchema } from "@/app/validationSchemas";
 import { z } from "zod";
 import ErrorMessage from "@/app/components/ErrorMessage";
 import Spinner from "@/app/components/Spinner";
-
 type IssueForm = z.infer<typeof createIssueSchema>;
 
 const NewIssuePage = () => {
